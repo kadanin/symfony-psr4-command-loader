@@ -1,0 +1,11 @@
+<phpunit
+    cacheResult="true"
+    cacheResultFile="tests/_output/.phpunit.result.cache"
+    bootstrap="tests/_bootstrap.php"
+>
+    <testsuites>
+        <testsuite name="My Test Suite">
+            <directory suffix="Test.php" phpVersion="7.4.0" phpVersionOperator=">=">tests/cases</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>

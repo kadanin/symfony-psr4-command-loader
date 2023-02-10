@@ -1,0 +1,39 @@
+{
+  "name": "kadanin/symfony-psr4-command-loader",
+  "type": "library",
+  "license": "BSD 3",
+  "authors": [
+    {
+      "name": "Kadanin"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=7.4",
+    "ext-intl": "*",
+    "ext-mbstring": "*",
+    "ext-ctype": "*",
+    "ext-iconv": "*",
+    "ext-json": "*",
+    "symfony/console": "^5.4",
+    "symfony/string": "^5.4"
+  },
+  "require-dev": {
+    "roave/security-advisories": "dev-latest",
+    "phpunit/phpunit": "^9.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "Kadanin\\SymfonyPsr4CommandLoader\\": "src/",
+      "TestApp\\": "tests/project/src2/",
+      "App\\": "tests/project/src/",
+      "tests\\": "tests/"
+    }
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    }
+  ]
+}
