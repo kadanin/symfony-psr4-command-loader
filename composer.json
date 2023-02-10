@@ -8,14 +8,14 @@
   ],
   "minimum-stability": "stable",
   "require": {
-    "php": ">=7.4 <8.0",
+    "php": ">=8.1",
     "ext-intl": "*",
     "ext-mbstring": "*",
     "ext-ctype": "*",
     "ext-iconv": "*",
     "ext-json": "*",
-    "symfony/console": "^5.4",
-    "symfony/string": "^5.4"
+    "symfony/console": "^6.2",
+    "symfony/string": "^6.2"
   },
   "require-dev": {
     "roave/security-advisories": "dev-latest",
