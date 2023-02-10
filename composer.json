@@ -1,7 +1,6 @@
 {
   "name": "kadanin/symfony-psr4-command-loader",
   "type": "library",
-  "license": "BSD-3",
   "authors": [
     {
       "name": "Kadanin"
